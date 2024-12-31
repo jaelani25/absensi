@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #212529;
+}
+
+h3 {
+    text-align: center;
+    color: #dc3545;
+}
+
+.logout-message {
+    text-align: center;
+    margin-top: 20px;
+}

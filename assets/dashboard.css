@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Warna latar belakang yang lebih lembut */
+    color: #343a40; /* Warna teks yang lebih gelap */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px; /* Lebar maksimum kontainer */
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px; /* Sudut yang lebih melengkung */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih halus */
+}
+
+.card {
+    background: #007bff; /* Warna latar belakang kartu */
+    color: white;
+    padding: 20px;
+    border-radius: 10px; /* Sudut yang lebih melengkung */
+    margin: 20px 0;
+    transition: transform 0.3s; /* Efek transisi saat hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px; /* Ukuran tombol yang lebih besar */
+    margin: 5px;
+    background: #007bff; /* Warna tombol */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s; /* Efek transisi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+}
+
+.btn:hover {
+    background: #0056b3; /* Warna tombol saat hover */
+    transform: translateY(-2px); /* Efek angkat saat hover */
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
